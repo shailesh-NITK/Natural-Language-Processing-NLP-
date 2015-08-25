@@ -40,7 +40,7 @@ classifier.show_most_informative_features(5)
 #              last_letter = 'p'              male : female =     10.6 : 1.0
 #              last_letter = 'w'              male : female =     10.6 : 1.0
 
-"""
+
 
 from nltk.classify import apply_features
 train_set = apply_features(g_f, names[500:])
